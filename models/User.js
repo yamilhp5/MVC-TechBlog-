@@ -39,6 +39,13 @@ User.init (
                 updatedUserData.password = await bcrypt.hash(updatedUserData.password, 10);           }
         }, 
         
+    }, 
+    {
+        sequelize,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'user',
+        
     }
 ); 
 
