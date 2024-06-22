@@ -1,4 +1,15 @@
 {
+  "name": "mvc-techblog-",
+  "version": "1.0.0",
+  "description": "The purpose for this app is to follows the MVC (model-view-controller) that uses handlebars, node js, dbeaver, sequelize and other npm packages. In order to deploy, the app Render was used.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
     "connect-session-sequelize": "^7.1.7",
